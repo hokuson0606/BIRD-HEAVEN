@@ -1,0 +1,197 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 88px;
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 13px;
+  padding: 1px 2px;
+  background-color: #e4e4e4;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: Cormorant Garamond;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  padding: 0 30px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  color: white;
+  padding: 0 30px;
+  font-weight: lighter;
+}
+
+.mainvasual {
+  position: relative;
+}
+
+.mainvasual h1 {
+  color: white;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  padding: 70px 0 20px;
+}
+
+main {
+  background-color: black;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.DISCOVERAPHY-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DISCOVERAPHY-item p,
+h4 {
+  margin: 1px;
+}
+
+.border {
+  border: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+
+.SCHEDULE {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.SCHEDULE-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.SCHEDULE-item p {
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  header {
+    padding: 0 15px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .DISCOVERAPHY-list {
+    flex-wrap: wrap;
+  }
+
+  .DISCOVERAPHY-list li {
+    width: 46%;
+  }
+
+  .header-item {
+    padding: 0 10px;
+  }
+
+  .SCHEDULE {
+    width: 100%;
+  }
+
+  .SCHEDULE-item p {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+}
