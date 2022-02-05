@@ -35,11 +35,16 @@ h4 {
   font-size: 18px;
 }
 
+.schedule-name-wrapper {
+  min-width: 46px;
+}
+
 h5 {
   font-size: 13px;
   padding: 1px 2px;
   background-color: #e4e4e4;
   color: black;
+  display: inline-block;
 }
 
 img {
@@ -77,11 +82,15 @@ header {
   font-weight: lighter;
 }
 
-.mainvasual {
+.mainvisual {
   position: relative;
 }
 
-.mainvasual h1 {
+.mainvisual img {
+  width: 100%;
+}
+
+.mainvisual h1 {
   color: white;
   white-space: nowrap;
   position: absolute;
@@ -96,7 +105,7 @@ header {
 
 .title {
   text-align: center;
-  padding: 70px 0 20px;
+  padding: 70px 0 10px;
 }
 
 main {
@@ -106,7 +115,7 @@ main {
 .container {
   width: 70%;
   margin: 0 auto;
-  padding-bottom: 200px;
+  padding-bottom: 134px;
 }
 
 .DISCOVERAPHY-list {
@@ -120,7 +129,7 @@ h4 {
 }
 
 .border {
-  border: 1px solid #e4e4e4;
+  border: 1px solid #7c7c7c;
   margin-bottom: 20px;
 }
 
@@ -129,9 +138,17 @@ h4 {
   margin: 0 auto;
 }
 
+.SCHEDULE-list li {
+  border-top: 1px solid #7c7c7c;
+}
+
+.SCHEDULE-list li:last-child {
+  border-bottom: 1px solid #7c7c7c;
+}
+
 .SCHEDULE-item {
   display: flex;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .SCHEDULE-item p {
@@ -182,8 +199,13 @@ h4 {
     flex-wrap: wrap;
   }
 
+  .border {
+    margin-bottom: 0px;
+  }
+
   .DISCOVERAPHY-list li {
     width: 46%;
+    margin-bottom: 24px;
   }
 
   .header-item {
@@ -192,6 +214,10 @@ h4 {
 
   .SCHEDULE {
     width: 100%;
+  }
+
+  .SCHEDULE-item {
+    margin: 0;
   }
 
   .SCHEDULE-item p {
